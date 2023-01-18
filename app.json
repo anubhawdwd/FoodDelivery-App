@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Zomato-Clone",
-    "slug": "Zomato-Clone",
+    "name": "RestaurantApp",
+    "slug": "RestaurantApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,6 +21,7 @@
       "supportsTablet": true
     },
     "android": {
+      "package": "com.anubhaw.RestaurantApp",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +29,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "64bf2179-5fdd-4767-9edf-1daafc9b2f9a"
+      }
     }
   }
 }
